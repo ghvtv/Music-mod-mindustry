@@ -1,0 +1,9 @@
+name: CD
+description:
+  '''
+  A cd insert to music blocks.
+  '''
+hardness: 10
+cost: 54.8
+color: 6c90bd
+research: copper
