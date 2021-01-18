@@ -1,0 +1,6 @@
+name: MusicMod1.0
+displayName: Music Mod1.0
+author: Chen Rhong
+description: adds blocks that allow you to play music!
+version: 1.0
+minGameVersion: "122"
