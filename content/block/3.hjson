@@ -1,0 +1,24 @@
+name: Rabbit in the black room
+description: Plays a music.
+type: GenericSmelter
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 30
+updateEffect: none
+consumes: {
+  items: {
+    items: [
+      cd/1
+    ]
+  }
+}
+requirements: [
+  lead/1
+]
+category: effect
+research: copper
+ambientSound: 3
+ambientSoundVolume: 50
+outputItem: cd/1

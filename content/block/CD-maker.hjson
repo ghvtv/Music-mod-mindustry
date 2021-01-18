@@ -1,0 +1,33 @@
+type: GenericSmelter
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 120
+itemCapacity: 60
+liquidCapacity: 120
+updateEffect: smeltsmoke
+consumes: {
+  power: 50
+  items: {
+    items: [
+      copper/12
+      lead/15
+      metaglass/1
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.20 //1 = 60/s
+  }
+}
+requirements: [
+  copper/50
+  graphite/40
+  silicon/130
+]
+category: crafting
+research: copper
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: cd/1
